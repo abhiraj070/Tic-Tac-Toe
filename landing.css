@@ -1,0 +1,43 @@
+body{
+    background-image: url(bg4.png);
+    background-size: cover;
+}
+
+#buttonplay{
+    position: relative;
+    margin-bottom: 100px;
+}
+
+a{
+    font-size: 50px;
+    font-weight: 600;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #0cb52b ;
+    border: 4px solid white;
+    cursor: pointer;   /*new*/
+    height: 70px;
+    width: 140px;
+    border-radius: 15px;
+    text-decoration: none;
+    color:#011604;
+    position: absolute; /*new*/
+    top: 50%;          /*new*/
+    left: 44%;        /*new*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gametxt{
+    font-size: 90px;
+    position: fixed;
+    left: 32%;
+    top: 15%;
+    color: white;
+    text-decoration: 1px line-through;
+}
+
+#txt-p{
+    color: white;
+    -webkit-text-stroke: 2px #011604;
+}
