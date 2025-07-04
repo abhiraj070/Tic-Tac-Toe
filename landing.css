@@ -1,5 +1,6 @@
 body{
-    background-image: url(bg4.png);
+    /* background-image: url(bg4.png); */
+    background-color: #1B3C53;
     background-size: cover;
 }
 
@@ -12,14 +13,14 @@ a{
     font-size: 50px;
     font-weight: 600;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: #0cb52b ;
-    border: 4px solid white;
+    background-color: #456882 ;
+    border: 4px solid black;
     cursor: pointer;   /*new*/
     height: 70px;
     width: 140px;
     border-radius: 15px;
     text-decoration: none;
-    color:#011604;
+    color:#F9F3EF;
     position: absolute; /*new*/
     top: 50%;          /*new*/
     left: 44%;        /*new*/
@@ -29,15 +30,15 @@ a{
 }
 
 #gametxt{
-    font-size: 90px;
+    font-size: 120px;
     position: fixed;
-    left: 32%;
-    top: 15%;
+    left: 26.5%;
+    top: 6%;
     color: white;
     text-decoration: 1px line-through;
 }
 
 #txt-p{
-    color: white;
+    color: #D2C1B6;
     -webkit-text-stroke: 2px #011604;
 }

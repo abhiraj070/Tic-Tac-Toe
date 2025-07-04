@@ -1,5 +1,6 @@
 body{
-    background-image: url(bg2.png);
+    /* background-image: url(bg2.png); */
+    background-color: #1B3C53;
     background-size: cover;
     
 }
@@ -113,11 +114,11 @@ body{
     font-size: 30px;
     font-weight: 600;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: #06751a ;
-    border: 4px solid white;
+    background-color: #456882 ;
+    border: 4px solid black;
     cursor: pointer;
-    height: 70px;
-    width: 140px;
+    height: 80px;
+    width: 160px;
     border-radius: 15px;
     text-decoration: none;
     color:#011604;
@@ -130,8 +131,8 @@ body{
     font-size: 30px;
     font-weight: 600;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: #06751a ;
-    border: 4px solid white;
+   background-color: #456882 ;
+    border: 4px solid black;
     cursor: pointer;   /*new*/
     height: 70px;
     width: 140px;
