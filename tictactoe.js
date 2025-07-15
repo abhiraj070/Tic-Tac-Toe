@@ -2,6 +2,7 @@ let boxes=document.querySelectorAll(".inbox");
 let winnerbox=document.querySelector("#winner");
 let ngmbtn=document.querySelector("a");
 let msgbox=document.querySelector(".msgbox");
+let outer=document.querySelector(".container");
 let button=document.querySelector("#button");
 let curr="X";
 let winer;
@@ -9,7 +10,9 @@ let pstostrt=document.querySelector("#pstostrt");
 let restart=document.querySelector("#restart");
 
 pstostrt.addEventListener("click",()=>{
-    pstostrt.setAttribute("class","msgbox");
+    pstostrt.classList.add("msgbox");
+    outer.classList.add("box-cont");
+    outer.classList.remove("msgbox");
     restart.classList.remove("msgbox");
     boxes.forEach((box)=>{
         box.classList.remove("msgbox");
