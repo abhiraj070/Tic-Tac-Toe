@@ -1,5 +1,5 @@
 body{
-     background-image: url(Images/bg4.png); 
+    background-image: url(Images/bg4.png); 
     /* background-color: #1B3C53; */
     background-size: cover;
 }
@@ -13,7 +13,7 @@ a{
     font-size: 50px;
     font-weight: 600;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: #456882 ;
+    background-color: #718245 ;
     border: 4px solid black;
     cursor: pointer;   /*new*/
     height: 70px;
