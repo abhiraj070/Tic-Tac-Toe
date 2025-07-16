@@ -19,9 +19,10 @@ pstostrt.addEventListener("click",()=>{
     })
 })
 
-
+let i=0;
 boxes.forEach((box)=>{
     box.addEventListener("click",()=>{
+        i++;
         if(curr=="O"){
             box.innerHTML="O";
             winer="O"
@@ -36,13 +37,20 @@ boxes.forEach((box)=>{
         if(winner()){
             winsteps();
         }
+        else if(i==9){
+            msgbox.setAttribute("id","msgbox2")
+            winnerbox.innerHTML=`It's a Draw`;
+            ngmbtn.innerHTML="NEW GAME";
+            ngmbtn.setAttribute("id","newgame");
+            button.setAttribute("id","restart2");
+        }
     })
 })
 
 
 const winsteps=()=>{
     msgbox.setAttribute("id","msgbox2")
-    winnerbox.innerHTML=`Congratulations! Player ${winer} is the winner`;
+    winnerbox.innerHTML=`Player ${winer} WON`;
     ngmbtn.innerHTML="NEW GAME";
     ngmbtn.setAttribute("id","newgame");
     button.setAttribute("id","restart2");
